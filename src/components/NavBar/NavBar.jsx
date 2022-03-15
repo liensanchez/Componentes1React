@@ -4,8 +4,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import CartWidget from '../Carrito/CartWidget';
 
-function NavBar() {
+
+
+function NavBar( { iphoneProps, samsungProps }) {
+
+  console.log(iphoneProps)
 
   return (
 
@@ -27,9 +32,9 @@ function NavBar() {
 
             <NavDropdown title="Equipos" id="basic-nav-dropdown">
 
-              <NavDropdown.Item href="#action/3.1">Iphone</NavDropdown.Item>
+              <NavDropdown.Item href=""> <p>{iphoneProps}</p>  </NavDropdown.Item>
 
-              <NavDropdown.Item href="#action/3.2">Samsung</NavDropdown.Item>
+              <NavDropdown.Item href=""> <p>{samsungProps}</p>   </NavDropdown.Item>
 
             </NavDropdown>
 
@@ -37,7 +42,7 @@ function NavBar() {
 
           <> {/*utilizamos asi y no div para evitar crear otro nodo */}
 
-            <Nav.Link className="justify-content-end">Carrito</Nav.Link>
+            <Nav.Link className="justify-content-end"><CartWidget/></Nav.Link>
 
             <Nav.Link className="justify-content-end">Usuario</Nav.Link>     
 
