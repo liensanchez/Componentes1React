@@ -1,16 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Body from './components/Body/Body';
+import Titulo from './components/Titulo/Titulo';
+
+
 
 function App() {
 
   return (
 
-    //NabBar
-    <NavBar/>
+    <div className='App'>
 
-    
+      <NavBar />
+
+      <Titulo/>
+
+
+    </div>
   );
 
 }
