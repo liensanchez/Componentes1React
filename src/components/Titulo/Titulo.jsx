@@ -2,14 +2,23 @@ import React from 'react'
 
 
 //COMPONENTE CON FUNCION
-//PODEMOS TENER SOLO UN RETURN
-function Titulo() {
+
+function Titulo({tituloProps,subtituloProps}) {
+  //tambien puede ser funtion Titulo (props){}
+  //console.log(props)
+
   return (
+
     <div className='titulo'>
-      <h1>Titulo</h1>
-      <label >subtitulo</label>
+
+      <h1>{tituloProps} </h1>
+
+      <h2 >{subtituloProps} </h2>
+
     </div>
+
   )
+
 }
 
 export default Titulo 

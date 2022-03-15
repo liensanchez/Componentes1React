@@ -5,11 +5,17 @@ import React, { Component } from 'react'
 export class Clase extends Component {
 
   //RENDER ES FUNCION
+
   render() {
+
     return (
+
       <div>Clase</div>
+
     )
+
   }
+  
 }
 
 export default Clase

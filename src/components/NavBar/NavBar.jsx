@@ -35,13 +35,13 @@ function NavBar() {
 
           </Nav>
 
-          <div>
+          <> {/*utilizamos asi y no div para evitar crear otro nodo */}
 
             <Nav.Link className="justify-content-end">Carrito</Nav.Link>
 
             <Nav.Link className="justify-content-end">Usuario</Nav.Link>     
 
-          </div>
+          </>
 
         </Navbar.Collapse>
 
