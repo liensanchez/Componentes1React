@@ -2,9 +2,9 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 
 
-let celularIphone= 'iphone';
+let iphone= 'iphone';
 
-let celularSamsung= 'samsung';
+let samsung='samsung'
 
 
 function ListItem() {
@@ -13,9 +13,7 @@ function ListItem() {
   return (
 
     <>
-
-    <NavBar iphoneProps={celularIphone} samsungProps={celularSamsung} /> 
-    
+      <NavBar samsungProps={samsung} iphoneProps={iphone}/>
     </>
     
   )

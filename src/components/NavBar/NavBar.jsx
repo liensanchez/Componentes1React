@@ -10,7 +10,6 @@ import ListItem from '../ListItem/ListItem';
 
 function NavBar( {iphoneProps, samsungProps}) {
 
-  console.log(iphoneProps)
 
   return (
 
@@ -32,7 +31,7 @@ function NavBar( {iphoneProps, samsungProps}) {
 
             <NavDropdown title="Equipos" id="basic-nav-dropdown">
 
-              <NavDropdown.Item href="">  <p>{iphoneProps}</p> </NavDropdown.Item>
+              <NavDropdown.Item href=""><p>{iphoneProps} </p> </NavDropdown.Item>
 
               <NavDropdown.Item href=""> <p>{samsungProps}</p>   </NavDropdown.Item>
 

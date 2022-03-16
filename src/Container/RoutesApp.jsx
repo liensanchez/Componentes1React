@@ -15,12 +15,13 @@ function RoutesApp() {
 
     <>
 
+     
       <NavBar/>
 
       <Titulo tituloProps={titulo} subtituloProps={subtitulo} /> {/*Extremadamente modular y dinamico porque directamente lo hice una sola vez */}
       {/*tmb se puede poner como Titulo()*/}
 
-      
+          
     </>
   )
 
