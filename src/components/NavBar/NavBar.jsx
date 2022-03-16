@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from '../Carrito/CartWidget';
+import ListItem from '../ListItem/ListItem';
 
 
-
-function NavBar( { iphoneProps, samsungProps }) {
+function NavBar( {iphoneProps, samsungProps}) {
 
   console.log(iphoneProps)
 
@@ -32,7 +32,7 @@ function NavBar( { iphoneProps, samsungProps }) {
 
             <NavDropdown title="Equipos" id="basic-nav-dropdown">
 
-              <NavDropdown.Item href=""> <p>{iphoneProps}</p>  </NavDropdown.Item>
+              <NavDropdown.Item href="">  <p>{iphoneProps}</p> </NavDropdown.Item>
 
               <NavDropdown.Item href=""> <p>{samsungProps}</p>   </NavDropdown.Item>
 

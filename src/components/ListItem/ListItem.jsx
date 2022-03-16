@@ -1,19 +1,25 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar';
+import NavBar from '../NavBar/NavBar'
 
 
-let iphone= "iphone";
+let celularIphone= 'iphone';
 
-let samsung= "samsung";
+let celularSamsung= 'samsung';
+
 
 function ListItem() {
 
+
   return (
+
     <>
-    <NavBar iphoneProps={iphone} samsungProps={samsung} /> 
+
+    <NavBar iphoneProps={celularIphone} samsungProps={celularSamsung} /> 
+    
     </>
     
   )
+
 }
 
 export default ListItem

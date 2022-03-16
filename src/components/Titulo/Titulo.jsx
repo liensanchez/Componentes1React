@@ -5,7 +5,7 @@ import React from 'react'
 
 function Titulo({tituloProps,subtituloProps}) {
   //tambien puede ser funtion Titulo (props){}
-  console.log(tituloProps)
+  
 
   return (
 
